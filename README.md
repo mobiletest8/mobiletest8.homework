@@ -14,7 +14,7 @@
     *   [adb shell monkey](#monkey)
 *   [作业3：Monkey三种不同策略的脚本并阐述策略](#作业3)
     *   [Monkey命令一](#monkeycommand1)
-	*   [Monkey命令二](#monkeycommand2)
+    *   [Monkey命令二](#monkeycommand2)
 	*   [Monkey命令三](#monkeycommand3)
 
 **Note:** Images to be uploaded.
@@ -118,7 +118,7 @@
 	在默认设备上，向全部安装包任意发送50个伪随机事件，其中各事件的比例随机分配，打印信息的详细级别:level 0(-v)。
 
 ***详细打印信息：***
->C:\Users\Michael>adb shell monkey -v 50
+>C:\Users\Michael>`adb shell monkey -v 50`  
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
 :Monkey: seed=1465934000638 count=50
 :IncludeCategory: android.intent.category.LAUNCHER
@@ -175,7 +175,7 @@ Events injected: 50
 	忽略任何程序崩溃/失控异常(--ignore-crashes)、超时错误(--ignore-timeouts)。
 
 ***详细打印信息：***
->C:\Users\Michael>adb -s emulator-5554 shell monkey -p com.basecamp.bc3 --pct-motion 30 --pct-touch 10 --pct-trackball 2 --pct-appswitch 15 --ignore-crashes --ignore-timeouts --throttle 500 -v -v -v 50
+>C:\Users\Michael>``adb -s emulator-5554 shell monkey -p com.basecamp.bc3 --pct-motion 30 --pct-touch 10 --pct-trackball 2 --pct-appswitch 15 --ignore-crashes --ignore-timeouts --throttle 500 -v -v -v 50``
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
 :Monkey: seed=1465932180290 count=50
 :AllowPackage: com.basecamp.bc3
