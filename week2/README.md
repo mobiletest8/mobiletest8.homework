@@ -18,7 +18,6 @@
 	*   [Monkey命令三](#monkeycommand3)
 *   [作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行](#作业4)
 
-**Note:** Images to be uploaded.
 
 <h2 id="作业1">作业1：Android各个工具的使用</h2>
 ###<h3 id="ddms">ddms.bat</h3>
