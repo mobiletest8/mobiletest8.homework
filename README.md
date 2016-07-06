@@ -16,7 +16,7 @@
     *   [Monkey命令一](#monkeycommand1)
 	*   [Monkey命令二](#monkeycommand2)
 	*   [Monkey命令三](#monkeycommand3)
-*   [作业4：Monkey三种不同策略的脚本并阐述策略](#作业4)
+*   [作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行](#作业4)
 
 **Note:** Images to be uploaded.
 
