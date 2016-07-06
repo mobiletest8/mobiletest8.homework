@@ -12,9 +12,9 @@
     *   [adb shell input keyevent](#input)
     *   [adb shell am start packagename/activityname](#amstart)
     *   [adb shell monkey](#monkey)
-*   [作业3：Monkey三种不同策略的脚本并阐述策略](#作业3)
+*   [作业3：Monkey三种不同命令并阐述策略](#作业3)
     *   [Monkey命令一](#monkeycommand1)
-	*   [Monkey命令二](#monkeycommand2)
+    *   [Monkey命令二](#monkeycommand2)
 	*   [Monkey命令三](#monkeycommand3)
 *   [作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行](#作业4)
 
@@ -22,7 +22,7 @@
 
 <h2 id="作业1">作业1：Android各个工具的使用</h2>
 ###<h3 id="ddms">ddms.bat</h3>
-1. Launch ddms.bat and select com.basecap.bc3:  
+1. Launch ***ddms.bat*** and select ***com.basecap.bc3***:  
 ![alt text][img01]
 2. Add a new logcat filter:  
 ![alt text][img02]
@@ -30,13 +30,13 @@
 ![alt text][img03]  
 
 
-  [img01]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-  [img02]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-  [img03]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img01]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/01.png
+  [img02]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/02.png
+  [img03]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/03.png
  
 
 ###<h3 id="hierarchyviewer">hierarchyviewer.bat</h3>  
-1. Launch hierarchyviewer.bat:  
+1. Launch ***hierarchyviewer.bat***:  
 ![alt text][img04]
 2. Inspect Screenshot  
 ![alt text][img05]
@@ -44,22 +44,22 @@
 ![alt text][img06]
 
 
-  [img04]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png  
-  [img05]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png  
-  [img06]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img04]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/04.png  
+  [img05]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/05.png  
+  [img06]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/06.png
 
 ###<h3 id="emulator">emulator.bat</h3>  
 ![alt text][img07]  
 
 
-  [img07]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png  
+  [img07]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/07.png  
  
 
 ###<h3 id="uiautomatorviewer">uiautomatorviewer.bat</h3>
 ![alt text][img08]
 
 
-  [img08]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img08]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/08.png
 
   
 <h2 id="作业2">作业2：adb各个命令</h2>
@@ -67,29 +67,29 @@
 ![alt text][img09]
 
 
-  [img09]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img09]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/09.png
 
 ###<h3 id="logcat">adb logcat</h3>
 ![alt text][img10]  
 ![alt text][img11]
 
 
-  [img10]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-  [img11]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img10]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/10.png
+  [img11]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/11.png
 
 
 ###<h3 id="pushpulletc">adb push, pull, ls, rm, mkdir</h3>
 ![alt text][img12]
 
 
-  [img12]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img12]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/12.png
 
 
 ###<h3 id="meminfo">adb shell dumpsys meminfo <package name></h3>
 ![alt text][img13]
 
 
-   [img13]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+   [img13]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/13.png
 
 
 
@@ -99,16 +99,16 @@
 ![alt text][img15]
 
 
-  [img14]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-  [img15]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img14]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/14.png
+  [img15]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/15.png
 
 ###<h3 id="monkey">adb shell monkey</h3>
 ![alt text][img16]
 
 
-  [img16]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img16]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/16.png
 
-<h2 id="作业3">作业3：Monkey三种不同策略的脚本并阐述策略</h2>
+<h2 id="作业3">作业3：Monkey三种不同命令并阐述策略</h2>
 <h3 id="monkeycommand1">Monkey命令一</h3>
 
     adb shell monkey -v 50
@@ -117,7 +117,7 @@
 	在默认设备上，向全部安装包任意发送50个伪随机事件，其中各事件的比例随机分配，打印信息的详细级别:level 0(-v)。
 
 ***详细打印信息：***
->C:\Users\Michael>adb shell monkey -v 50
+>C:\Users\Michael>`adb shell monkey -v 50`  
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
 :Monkey: seed=1465934000638 count=50
 :IncludeCategory: android.intent.category.LAUNCHER
@@ -174,7 +174,7 @@ Events injected: 50
 	忽略任何程序崩溃/失控异常(--ignore-crashes)、超时错误(--ignore-timeouts)。
 
 ***详细打印信息：***
->C:\Users\Michael>adb -s emulator-5554 shell monkey -p com.basecamp.bc3 --pct-motion 30 --pct-touch 10 --pct-trackball 2 --pct-appswitch 15 --ignore-crashes --ignore-timeouts --throttle 500 -v -v -v 50
+>C:\Users\Michael>`adb -s emulator-5554 shell monkey -p com.basecamp.bc3 --pct-motion 30 --pct-touch 10 --pct-trackball 2 --pct-appswitch 15 --ignore-crashes --ignore-timeouts --throttle 500 -v -v -v 50`  
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
 :Monkey: seed=1465932180290 count=50
 :AllowPackage: com.basecamp.bc3
@@ -313,7 +313,7 @@ Events injected: 50
 	将结果输出到当前目录（C:\Users\Michael）的mokeycommandtest.log中。
 
 ***详细打印信息：***
-[mokeycommandtest.log](http://google.com/ "Google")
+[mokeycommandtest.log](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/logs/mokeycommandtest.log "mokeycommandtest.log")
 
 <h2 id="作业4">作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行</h2>
 *To be finished(Planning to buy a Mac Device)*
