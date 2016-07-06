@@ -14,7 +14,7 @@
     *   [adb shell monkey](#monkey)
 *   [作业3：Monkey三种不同策略的脚本并阐述策略](#作业3)
     *   [Monkey命令一](#monkeycommand1)
-    *   [Monkey命令二](#monkeycommand2)
+	*   [Monkey命令二](#monkeycommand2)
 	*   [Monkey命令三](#monkeycommand3)
 
 **Note:** Images to be uploaded.
@@ -55,59 +55,57 @@
  
 
 ###<h3 id="uiautomatorviewer">uiautomatorviewer.bat</h3>
-![alt text][img08]  
-![alt text][img09]
+![alt text][img08]
 
 
   [img08]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-  [img09]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
 
   
 <h2 id="作业2">作业2：adb各个命令</h2>
 ###<h3 id="installuninstall">adb Install, uninstall</h3>
-![alt text][img10]
+![alt text][img09]
+
+
+  [img09]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+
+###<h3 id="logcat">adb logcat</h3>
+![alt text][img10]  
+![alt text][img11]
 
 
   [img10]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-
-###<h3 id="logcat">adb logcat</h3>
-![alt text][img11]  
-![alt text][img12]
-
-
   [img11]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-  [img12]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
 
 
 ###<h3 id="pushpulletc">adb push, pull, ls, rm, mkdir</h3>
-![alt text][img13]
+![alt text][img12]
 
 
-  [img13]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img12]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
 
 
 ###<h3 id="meminfo">adb shell dumpsys meminfo <package name></h3>
-![alt text][img14]
+![alt text][img13]
 
 
-   [img14]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+   [img13]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
 
 
 
 ###<h3 id="amstart">adb shell am start packagename/activityname</h3>
 ###<h3 id="input">adb shell input keyevent</h3>
-![alt text][img15]  
+![alt text][img14]  
+![alt text][img15]
+
+
+  [img14]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+  [img15]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+
+###<h3 id="monkey">adb shell monkey</h3>
 ![alt text][img16]
 
 
-  [img15]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
   [img16]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-
-###<h3 id="monkey">adb shell monkey</h3>
-![alt text][img17]
-
-
-  [img17]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
 
 <h2 id="作业3">作业3：Monkey三种不同策略的脚本并阐述策略</h2>
 <h3 id="monkeycommand1">Monkey命令一</h3>
@@ -118,7 +116,7 @@
 	在默认设备上，向全部安装包任意发送50个伪随机事件，其中各事件的比例随机分配，打印信息的详细级别:level 0(-v)。
 
 ***详细打印信息：***
->C:\Users\Michael>`adb shell monkey -v 50`  
+>C:\Users\Michael>adb shell monkey -v 50
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
 :Monkey: seed=1465934000638 count=50
 :IncludeCategory: android.intent.category.LAUNCHER
@@ -175,7 +173,7 @@ Events injected: 50
 	忽略任何程序崩溃/失控异常(--ignore-crashes)、超时错误(--ignore-timeouts)。
 
 ***详细打印信息：***
->C:\Users\Michael>``adb -s emulator-5554 shell monkey -p com.basecamp.bc3 --pct-motion 30 --pct-touch 10 --pct-trackball 2 --pct-appswitch 15 --ignore-crashes --ignore-timeouts --throttle 500 -v -v -v 50``
+>C:\Users\Michael>adb -s emulator-5554 shell monkey -p com.basecamp.bc3 --pct-motion 30 --pct-touch 10 --pct-trackball 2 --pct-appswitch 15 --ignore-crashes --ignore-timeouts --throttle 500 -v -v -v 50
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
 :Monkey: seed=1465932180290 count=50
 :AllowPackage: com.basecamp.bc3
