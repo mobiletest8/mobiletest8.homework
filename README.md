@@ -16,7 +16,9 @@
     *   [Monkey命令一](#monkeycommand1)
 	*   [Monkey命令二](#monkeycommand2)
 	*   [Monkey命令三](#monkeycommand3)
-	
+
+**Note:** Images to be uploaded.
+
 <h2 id="作业1">作业1：Android各个工具的使用</h2>
 ###<h3 id="ddms">ddms.bat</h3>
 1. Launch ddms.bat and select com.basecap.bc3:  
