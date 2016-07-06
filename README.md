@@ -5,7 +5,7 @@
     *   [emulator.bat](#emulator)
     *   [uiautomatorviewer.bat](#uiautomatorviewer)
 *   [作业2：adb各个命令](#作业2)
-    *   [adb Install, uninstall](#installuninstall)
+    *   [adb install, uninstall](#installuninstall)
     *   [adb logcat](#logcat)
     *   [adb push, pull, ls, rm, mkdir](#pushpulletc)
     *   [adb shell dumpsys meminfo <package name>](#meminfo)
@@ -16,6 +16,7 @@
     *   [Monkey命令一](#monkeycommand1)
 	*   [Monkey命令二](#monkeycommand2)
 	*   [Monkey命令三](#monkeycommand3)
+*   [作业4：Monkey三种不同策略的脚本并阐述策略](#作业4)
 
 **Note:** Images to be uploaded.
 
@@ -62,7 +63,7 @@
 
   
 <h2 id="作业2">作业2：adb各个命令</h2>
-###<h3 id="installuninstall">adb Install, uninstall</h3>
+###<h3 id="installuninstall">adb install, uninstall</h3>
 ![alt text][img09]
 
 
@@ -307,12 +308,12 @@ Events injected: 50
 	在设备emulator-5554上启动应用程序（package: com.basecamp.bc3, com.zhihu.android），向其发送50个伪随机事件，  
 	其中各事件的比例随机分配；  
 	事件间隔时间(throttle)：500 ms  
-	打印信息的详细级别:level (-v)  
+	打印信息的详细级别:level0 (-v)  
 	忽略任何程序崩溃/失控异常(--ignore-crashes)、超时错误(--ignore-timeouts)  
 	将结果输出到当前目录（C:\Users\Michael）的mokeycommandtest.log中。
 
 ***详细打印信息：***
 [mokeycommandtest.log](http://google.com/ "Google")
 
-##作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行
+<h2 id="作业4">作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行</h2>
 *To be finished(Planning to buy a Mac Device)*
