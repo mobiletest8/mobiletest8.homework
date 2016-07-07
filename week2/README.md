@@ -37,9 +37,9 @@
 ###<h3 id="hierarchyviewer">hierarchyviewer.bat</h3>  
 1. Launch ***hierarchyviewer.bat***:  
 ![alt text][img04]
-2. Inspect Screenshot  
+2. View Hierarchy:  
 ![alt text][img05]
-3. Log in command line:  
+3. Inspect Screenshot:  
 ![alt text][img06]
 
 
