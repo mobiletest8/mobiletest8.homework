@@ -4,16 +4,12 @@
     *   [iOS](#ios)
 *   [作业2:使用aapt查看Android apk包权限并截图](#作业2)
     *   [aapt dump permissions basecamp3.apk](#aapt)
-*   [作业3:使用ApkTool和jar2dex工具来反编译一个apk，打开反编译之后的dex并截图。](#作业3)
+*   [作业3:使用ApkTool和jar2dex工具来反编译一个apk，打开反编译之后的dex并截图](#作业3)
 
     
-<h2 id="作业1">作业1:Charles限速的设置，代理挂上，限速设置好，然后使用app，查看是否限速成功。Android和iOS都要使用，包括从iOS开发者模式下获取限速详细数据</h2>  
+<h2 id="作业1">作业1:Charles限速的设置，代理挂上，限速设置好，然后使用app，查看是否限速成功。Android和iOS都要使用，包括从iOS开发者模式下获取限速详细数据。</h2>  
 
 ###<h3 id="android">Android</h3>
-
-![alt text][img01-01]	
-
-###<h3 id="ios">iOS</h3>
 Throttling is ***disabled***:  
 ![alt text][img01-02-01]  
 Throttling is enabled with ***56 kbps Modem*** as the preset:  
@@ -22,6 +18,11 @@ Throttling is enabled with ***3G*** as the preset:
 ![alt text][img01-02-03]  
 Throttling is enabled with ***4G*** as the preset:  
 ![alt text][img01-02-04]  
+
+
+###<h3 id="ios">iOS</h3>
+
+![alt text][img01-01]    
 
 
   [img01-01]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week3/src/common/images/01.png
