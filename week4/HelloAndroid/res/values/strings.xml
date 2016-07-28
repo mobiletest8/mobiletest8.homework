@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="firstpage_title">Hi there! Welcome to HellowAndroid. Please touch \"Next\" button to continue.</string>
+    <string name="secondpage_title">You are now in the second page.</string>
+    <string name="secondpage_text">Please touch \"Back\" button if you would like to go back to the first page.</string>
+    
+    <string name ="firstpage_btn">Next</string>
+    <string name ="secondpage_btn">Back</string>
+
+</resources>
