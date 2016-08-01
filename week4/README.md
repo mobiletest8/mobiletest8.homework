@@ -273,13 +273,13 @@ Open cmd, run the below command:
 
 
 
-  [img2-01]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_01.png
-  [img2-02]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_02.png
-  [img2-03]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_03.png
-  [img2-04]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_04.png
-  [img2-05]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_05.png
-  [img2-06]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_06.png
-  [img2-07]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_07.png
-  [img2-08]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_08.png
-  [img2-09]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_09.png
-  [img2-10]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/1_10.png
+  [img2-01]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_01.png
+  [img2-02]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_02.png
+  [img2-03]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_03.png
+  [img2-04]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_04.png
+  [img2-05]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_05.png
+  [img2-06]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_06.png
+  [img2-07]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_07.png
+  [img2-08]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_08.png
+  [img2-09]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_09.png
+  [img2-10]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/src/common/images/2_10.png
