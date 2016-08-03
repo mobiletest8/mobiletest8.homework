@@ -8,7 +8,7 @@ Use solo API to rewrite the Instrumentation test cases last week:
 ```java
     public void testNextButton() {
         Log.i(TAG, "Call testNextButton()");
-    	solo.assertCurrentActivity("Wrong activity", MainActivity.class);
+        solo.assertCurrentActivity("Wrong activity", MainActivity.class);
 		solo.clickOnButton("Next");
 		solo.sleep(5000);
 		
@@ -38,13 +38,13 @@ Use solo API to rewrite the Instrumentation test cases last week:
 		assertCurrentActivity(activityName, label1, label2, buttonName);
 	}
 ```
-See for [TestActivityWithRobotium.java](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week5/HelloAndroidTest/src/com/example/helloandroid/test/TestActivityWithRobotium.java "TestActivityWithRobotium.java") details.
+See for [TestActivityWithRobotium.java](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week5/HelloAndroidTest/src/com/example/helloandroid/test/TestMainActivityWithRobotium.java "TestActivityWithRobotium.java") details.
 
 **Note:** To run this test case, right click on it or the test project, select Run As > Android JUnit Test.
 
 
 <h2 id="作业2">作业2：扩展Robotium Solo下面的API，用新API做测试</h2>
-I choose to extend assertCurrentActivity with four parameters, in my test case, [TestActivityWithRobotium.java](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week5/HelloAndroidTest/src/com/example/helloandroid/test/TestActivityWithRobotium.java "TestActivityWithRobotium.java"), I added the below method:
+I choose to extend assertCurrentActivity with four parameters, in my test case, [TestActivityWithRobotium.java](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week5/HelloAndroidTest/src/com/example/helloandroid/test/TestMainActivityWithRobotium.java "TestActivityWithRobotium.java"), I added the below method:
 
 ```java
 	/**
@@ -69,4 +69,4 @@ I choose to extend assertCurrentActivity with four parameters, in my test case, 
 ```
 
 ***Note:***  
-Please check week4 for `HelloAndroid` project.
+Please check week4 for [HelloAndroid](https://github.com/mobiletest8/mobiletest8.homework.wanmich/tree/master/week4 "week4.HelloAndroid") project.
