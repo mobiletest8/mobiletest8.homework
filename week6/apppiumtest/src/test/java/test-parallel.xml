@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test TestNG Parellel" parallel="tests" thread-count="3">
+  <test name="Run test in device 1">
+    <parameter name="udid" value="emulator-5676" />
+    <parameter name="deviceName" value="appium-test-avd-1" />
+    <classes>
+      <class name="com.wanmich.apppiumtest.TestParallel"/>
+    </classes>
+  </test>
+  <test name="Run test in device 2">
+    <parameter name="udid" value="emulator-5678" />
+    <parameter name="deviceName" value="appium-test-avd-2" />
+    <classes>
+      <class name="com.wanmich.apppiumtest.TestParallel"/>
+    </classes>
+  </test>
+  <test name="Run test in device 3">
+    <parameter name="udid" value="emulator-5680" />
+    <parameter name="deviceName" value="appium-test-avd-3" />
+    <classes>
+      <class name="com.wanmich.apppiumtest.TestParallel"/>
+    </classes>
+  </test>
+</suite>

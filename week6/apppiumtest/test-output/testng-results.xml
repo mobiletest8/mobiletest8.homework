@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test TestNG Parellel" duration-ms="24284" started-at="2016-08-12T14:00:27Z" finished-at="2016-08-12T14:00:52Z">
+    <groups>
+    </groups>
+    <test name="Run test in device 1" duration-ms="22203" started-at="2016-08-12T14:00:27Z" finished-at="2016-08-12T14:00:49Z">
+      <class name="com.wanmich.apppiumtest.TestParallel">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.wanmich.apppiumtest.TestParallel@1fbc7afb]" name="setUp" is-config="true" duration-ms="17712" started-at="2016-08-12T22:00:27Z" finished-at="2016-08-12T22:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5676]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[appium-test-avd-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextButton()[pri:0, instance:com.wanmich.apppiumtest.TestParallel@1fbc7afb]" name="testNextButton" duration-ms="2173" started-at="2016-08-12T22:00:45Z" finished-at="2016-08-12T22:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wanmich.apppiumtest.TestParallel@1fbc7afb]" name="tearDown" is-config="true" duration-ms="2283" started-at="2016-08-12T22:00:47Z" finished-at="2016-08-12T22:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wanmich.apppiumtest.TestParallel -->
+    </test> <!-- Run test in device 1 -->
+    <test name="Run test in device 2" duration-ms="23408" started-at="2016-08-12T14:00:27Z" finished-at="2016-08-12T14:00:51Z">
+      <class name="com.wanmich.apppiumtest.TestParallel">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.wanmich.apppiumtest.TestParallel@1cd072a9]" name="setUp" is-config="true" duration-ms="18965" started-at="2016-08-12T22:00:27Z" finished-at="2016-08-12T22:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[appium-test-avd-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextButton()[pri:0, instance:com.wanmich.apppiumtest.TestParallel@1cd072a9]" name="testNextButton" duration-ms="2317" started-at="2016-08-12T22:00:46Z" finished-at="2016-08-12T22:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wanmich.apppiumtest.TestParallel@1cd072a9]" name="tearDown" is-config="true" duration-ms="2113" started-at="2016-08-12T22:00:49Z" finished-at="2016-08-12T22:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wanmich.apppiumtest.TestParallel -->
+    </test> <!-- Run test in device 2 -->
+    <test name="Run test in device 3" duration-ms="24284" started-at="2016-08-12T14:00:27Z" finished-at="2016-08-12T14:00:52Z">
+      <class name="com.wanmich.apppiumtest.TestParallel">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.wanmich.apppiumtest.TestParallel@7c30a502]" name="setUp" is-config="true" duration-ms="18858" started-at="2016-08-12T22:00:27Z" finished-at="2016-08-12T22:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5680]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[appium-test-avd-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextButton()[pri:0, instance:com.wanmich.apppiumtest.TestParallel@7c30a502]" name="testNextButton" duration-ms="3378" started-at="2016-08-12T22:00:46Z" finished-at="2016-08-12T22:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wanmich.apppiumtest.TestParallel@7c30a502]" name="tearDown" is-config="true" duration-ms="2040" started-at="2016-08-12T22:00:49Z" finished-at="2016-08-12T22:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wanmich.apppiumtest.TestParallel -->
+    </test> <!-- Run test in device 3 -->
+  </suite> <!-- Test TestNG Parellel -->
+</testng-results>
