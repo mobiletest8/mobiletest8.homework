@@ -11,7 +11,7 @@
     *   [5. Run test](#hw2-5)
     	
 *__Prerequisites:__
-JDK, Android SDK, eclipse, appium, maven and their related environment are in place.*  
+JDK, Android SDK, eclipse, appium, maven and their related environment variables are in place.*  
 
 *__Platform:__ WINDOWS10*
 
