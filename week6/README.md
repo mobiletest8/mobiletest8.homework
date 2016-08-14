@@ -9,10 +9,11 @@
     *   [3. Create 3 devices and related bat file to launch them](#hw2-3)
     *   [4. Create a TestNG xml file to run test in parallel, here it’s  in 3 devices](#hw2-4)
     *   [5. Run test](#hw2-5)
-		
-Prerequisites:
-JDK, Android SDK, eclipse, appium, maven and their related environment are in place.
-Platform: WINDOWS10
+    	
+*__Prerequisites:__
+JDK, Android SDK, eclipse, appium, maven and their related environment are in place.*  
+
+*__Platform:__ WINDOWS10*
 
 <h2 id="hw1">作业1：在本机搭建Appium Grid环境</h2>		
 
