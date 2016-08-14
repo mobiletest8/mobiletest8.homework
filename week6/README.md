@@ -7,8 +7,8 @@
     *   [1. Create a maven project](#hw2-1)
     *   [2. Create a test case class](#hw2-2)
     *   [3. Create 3 devices and related bat file to launch them](#hw2-3)
-	*   [4. Create a TestNG xml file to run test in parallel, here it’s  in 3 devices](#hw2-4)
-	*   [5. Run test](#hw2-5)
+    *   [4. Create a TestNG xml file to run test in parallel, here it’s  in 3 devices](#hw2-4)
+    *   [5. Run test](#hw2-5)
 		
 Prerequisites:
 JDK, Android SDK, eclipse, appium, maven and their related environment are in place.
@@ -132,8 +132,9 @@ See [TestParallel.class] as well.
 
 ###<h3 id="hw2-3">3. Create 3 devices and related bat file to launch them:</h3>
 
+1) Create 3 virtual devices.  
 
-bat file:
+2) Create the bat file to launch them:
 ```bat
 @echo off
 echo Launching android emulator, please wait...
