@@ -1,5 +1,5 @@
 #mobliletest8.homework.week6
-*   [作业1：新建一个app工程：有按钮，多个activity，点击按钮有activity的跳转](#hw1)
+*   [作业1：在本机搭建Appium Grid环境](#hw1)
     *   [1. Prepare the bat file to start up appium grid](#hw1-1)
     *   [2. Prepare the json file for the startup of appium server](#hw1-2)
     *   [3. Prepare the bat file to start up appium server](#hw1-3)
