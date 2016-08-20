@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "args": {
+      "type": "object",
+      "properties": {}
+    },
+    "headers": {
+      "type": "object",
+      "properties": {
+        "Accept": {
+          "type": "string"
+        },
+        "Accept-Encoding": {
+          "type": "string"
+        },
+        "Content-Type": {
+          "type": "string"
+        },
+        "Host": {
+          "type": "string"
+        },
+        "User-Agent": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Accept",
+        "Accept-Encoding",
+        "Content-Type",
+        "Host",
+        "User-Agent"
+      ]
+    },
+    "origin": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "args",
+    "headers",
+    "origin",
+    "url"
+  ]
+}
