@@ -39,15 +39,16 @@ void updateContentAndRecycleBitmap(int category, int position) {
     ((ImageView) getView().findViewById(R.id.image)).setImageBitmap(mBitmap);
 }
 ```
-Now, launch the **[HoneycombGallery]**, try to open different Balloons:  
+Now, launch **[HoneycombGallery]**, try to open different Balloons:  
 ![alt text][img3-01]  
 In Android Studio, ***memory monitor*** shows that memory increases dramatically:
 then, manually ***cause GC*** for a few times: 
 ![alt text][img3-02]  
 Click the ***Dump HPROF file*** button, to get the hprof file, then convert the ***.hprof file*** from the Dalvik format to the J2SE HPROF format by the below command:  
+
     hprof-conv com.example.android.hcgallery_2016.09.10_21.21.hprof converted-dump.hprof  
     
-Open converted-dump.hprof in ***eclipse MAT***:  
+Open the ***converted-dump.hprof*** in ***eclipse MAT***:  
 ![alt text][img3-03]  
 Click **Histogram**, the below view will be shown, sort by **Retained Heap**:  
 ![alt text][img3-04]  
@@ -64,12 +65,15 @@ By following instructions here:
 http://facebook.github.io/react-native/docs/getting-started.html
 
 Install **node.js** and **Python2**, then **React Native** in command line interface by the below command:  
+
     npm install -g react-native-cli
 
 After that, create **a new React Native project** called "AwesomeProject":  
+
     react-native init AwesomeProject
 
 then run the below command in the newly created folder to run the project:  
+
     cd AwesomeProject
     react-native run-android
     
@@ -81,8 +85,8 @@ Update the **index.android.js** in the project’s folder:
 ![alt text][img4-03]  
 In emulator, the change will be shown by pressing the **R** key twice or selecting **Reload** from the Developer Menu:  
 ![alt text][img4-04]  
-![alt text][img4-05]
-***Note: If the packager is not started automatically when running react-native run-android. Start it manually by using react-native start.***  
+![alt text][img4-05]  
+***Note: If the packager is not started automatically when running react-native run-android. Start it manually by using `react-native start`.***  
 ![alt text][img4-06] 
 
 
