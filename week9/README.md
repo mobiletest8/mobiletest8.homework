@@ -81,8 +81,9 @@ Update the **index.android.js** in the project’s folder:
 ![alt text][img4-03]  
 In emulator, the change will be shown by pressing the **R** key twice or selecting **Reload** from the Developer Menu:  
 ![alt text][img4-04]  
+![alt text][img4-05]
 ***Note: If the packager is not started automatically when running react-native run-android. Start it manually by using react-native start.***  
-![alt text][img4-05] 
+![alt text][img4-06] 
 
 
 
