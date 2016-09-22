@@ -40,7 +40,7 @@ wm: **Window Manager**
 While capturing, do some operations that take time to respond, like scrool List View, switch Tab, etc.  
 10 s later, the resulting trace will be generated, it is a stand-alone HTML document, open it in Chrome:  
 ![alt text][img3-2]  
-_**Tip:** to navigate a systrace document, use the WASD keys to pan and zoom. W will zoom in on the mouse cursor. _  
+_**Tip:** to navigate a systrace document, use the WASD keys to pan and zoom. W will zoom in on the mouse cursor._  
 **Inspecting Frames & Alerts**  
 Ideally, rendering frames will be within the 16 ms threshold (green circle), but some will take more time (yellow and red circle).  
 Zoom in using the 'W' key to find out more details about the frames:  
