@@ -1,4 +1,4 @@
-#mobliletest8.homework.week6
+# mobliletest8.homework.week6
 *   [作业1：在本机搭建Appium Grid环境](#hw1)
     *   [1. Prepare the bat file to start up appium grid](#hw1-1)
     *   [2. Prepare the json file for the startup of appium server](#hw1-2)
@@ -17,7 +17,7 @@ JDK, Android SDK, eclipse, appium, maven and their related environment variables
 
 <h2 id="hw1">作业1：在本机搭建Appium Grid环境</h2>		
 
-###<h3 id="hw1-1">1. Prepare the bat file to start up appium grid:</h3>
+### <h3 id="hw1-1">1. Prepare the bat file to start up appium grid:</h3>
 ```bat
 @echo off
 echo Lanuching appium grid, please wait.
@@ -31,7 +31,7 @@ See [2.Start Up Appium Grid.bat] as well.
 
 
 
-###<h3 id="hw1-2">2. Prepare the json file for the startup of appium server:</h3>
+### <h3 id="hw1-2">2. Prepare the json file for the startup of appium server:</h3>
 
 ```json
 {
@@ -62,7 +62,7 @@ See [2.Start Up Appium Grid.bat] as well.
 ```
 See [nodeconfig_1.json], [nodeconfig_2.json] and [nodeconfig_3.json] as well.
 
-###<h3 id="hw1-3">3. Prepare the bat file to start up appium server:</h3>
+### <h3 id="hw1-3">3. Prepare the bat file to start up appium server:</h3>
 
 ```bat
 @echo off
@@ -74,10 +74,10 @@ See [3.Start Up Appium Server A.bat], [3.Start Up Appium Server B.bat] and [3.St
 <h2 id="hw2">作业2：实现2个以上设备的并行测试</h2>	
 
 
-###<h3 id="hw2-1">1. Create a maven project:</h3> 
+### <h3 id="hw2-1">1. Create a maven project:</h3> 
 Create a maven project and add dependencies for TestNG and appium java lib in the pom.xml.
 
-###<h3 id="hw2-2">2. Create a test case class:</h3>
+### <h3 id="hw2-2">2. Create a test case class:</h3>
 
 ```java
 public class TestParallel {
@@ -131,7 +131,7 @@ public class TestParallel {
 ```
 See [TestParallel.class] as well.
 
-###<h3 id="hw2-3">3. Create 3 devices and related bat file to launch them:</h3>
+### <h3 id="hw2-3">3. Create 3 devices and related bat file to launch them:</h3>
 
 1) Create 3 virtual devices.  
 
@@ -147,7 +147,7 @@ start cmd /c emulator -port 5680 -avd appium-test-avd-3
 ```
 See [1.Launch AVD.bat] as well.
 
-###<h3 id="hw2-4">4. Create a TestNG xml file to run test in parallel, here it’s  in 3 devices:</h3>
+### <h3 id="hw2-4">4. Create a TestNG xml file to run test in parallel, here it’s  in 3 devices:</h3>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -178,7 +178,7 @@ See [1.Launch AVD.bat] as well.
 ```
 See [test-parallel.xml] as well.
 
-###<h3 id="hw2-5">5. Run test:</h3>
+### <h3 id="hw2-5">5. Run test:</h3>
 
 Start up avd devices, Appium Grid, Appium Server, then right click against the testng xml file in step 4, select ***Run As > TestNG Suite***.
 
