@@ -12,7 +12,7 @@
     *   [adb shell input keyevent](#input)
     *   [adb shell am start packagename/activityname](#amstart)
     *   [adb shell monkey](#monkey)
-*   [作业3：Monkey三种不同命令并阐述策略](#作业3)
+*   [作业3：使用三种不同的策略练习Monkey命令并阐述策略](#作业3)
     *   [Monkey命令一](#monkeycommand1)
     *   [Monkey命令二](#monkeycommand2)
 	*   [Monkey命令三](#monkeycommand3)
@@ -115,7 +115,7 @@
 
   [img16]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/16.png
 
-<h2 id="作业3">作业3：Monkey三种不同命令并阐述策略</h2>
+<h2 id="作业3">作业3：使用三种不同的策略练习Monkey命令并阐述策略</h2>
 <h3 id="monkeycommand1">Monkey命令一</h3>
 
     adb shell monkey -v 50
