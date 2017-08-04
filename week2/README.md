@@ -1,4 +1,41 @@
-# mobliletest8.homework.week2
+# (GitHub-Flavored) Markdown Editor
+
+Basic useful feature list:
+
+ * Ctrl+S / Cmd+S to save the file
+ * Ctrl+Shift+S / Cmd+Shift+S to choose to save as Markdown or HTML
+ * Drag and drop a file into here to load it
+ * File contents are saved in the URL so you can share files
+
+
+I'm no good at writing sample / filler text, so go write something yourself.
+
+Look, a list!
+
+ * foo
+ * bar
+ * baz
+
+And here's some code! :+1:
+
+```javascript
+$(function(){
+  $('div').html('I am a div.');
+});
+```
+
+This is [on GitHub](https://github.com/jbt/markdown-editor) so let me know if I've b0rked it somewhere.
+
+
+Props to Mr. Doob and his [code editor](http://mrdoob.com/projects/code-editor/), from which
+the inspiration to this, and some handy implementation hints, came.
+
+### Stuff used to make this:
+
+ * [markdown-it](https://github.com/markdown-it/markdown-it) for Markdown parsing
+ * [CodeMirror](http://codemirror.net/) for the awesome syntax-highlighted editor
+ * [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) for syntax highlighting in output code blocks
+ * [js-deflate](https://github.com/dankogai/js-deflate) for gzipping of data to make it fit in URLs# mobliletest8.homework.week2
 *   [作业1：Android各个工具的使用](#作业1)
     *   [ddms.bat](#ddms)
     *   [hierarchyviewer.bat](#hierarchyviewer)
@@ -126,10 +163,10 @@
 ***详细打印信息：***
 >C:\Users\Michael>`adb shell monkey -v 50`  
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
-:Monkey: seed=1465934000638 count=50
+:Monkey: **seed=1465934000638 count=50**
 :IncludeCategory: android.intent.category.LAUNCHER
 :IncludeCategory: android.intent.category.MONKEY
-// Event percentages:
+// **Event percentages:
 //   0: 15.0%
 //   1: 10.0%
 //   2: 2.0%
@@ -140,7 +177,7 @@ WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a
 //   7: 2.0%
 //   8: 2.0%
 //   9: 1.0%
-//   10: 13.0%
+//   10: 13.0%**
 :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.development/.Development;end
     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.development/.Development } in package com.android.development
 :Sending Touch (ACTION_DOWN): 0:(542.0,1611.0)
@@ -157,11 +194,11 @@ WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a
 :Sending Touch (ACTION_DOWN): 0:(35.0,1056.0)
 :Sending Touch (ACTION_UP): 0:(46.650333,1070.8444)
 :Sending Touch (ACTION_DOWN): 0:(92.0,843.0)
-Events injected: 50
+**Events injected: 50**
 :Sending rotation degree=0, persist=false
 :Dropped: keys=0 pointers=4 trackballs=0 flips=0 rotations=0  
 \## Network stats: elapsed time=4079ms (0ms mobile, 0ms wifi, 4079ms not connected)  
-// Monkey finished
+// **Monkey finished**
 
 
 <h3 id="monkeycommand2">Monkey命令二</h3>
@@ -183,8 +220,8 @@ Events injected: 50
 ***详细打印信息：***
 >C:\Users\Michael>`adb -s emulator-5554 shell monkey -p com.basecamp.bc3 --pct-motion 30 --pct-touch 10 --pct-trackball 2 --pct-appswitch 15 --ignore-crashes --ignore-timeouts --throttle 500 -v -v -v 50`  
 WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a security risk. Please fix.
-:Monkey: seed=1465932180290 count=50
-:AllowPackage: com.basecamp.bc3
+:Monkey: **seed=1465932180290 count=50
+:AllowPackage: com.basecamp.bc3**
 :IncludeCategory: android.intent.category.LAUNCHER
 :IncludeCategory: android.intent.category.MONKEY
 // Selecting main activities from category android.intent.category.LAUNCHER
@@ -217,7 +254,7 @@ WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a
 //   - NOT USING main activity com.android.launcher2.Launcher (from package com.android.launcher)
 //   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
 //   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
-// Seeded: 1465932180290
+// **Seeded: 1465932180290
 // Event percentages:
 //   0: 10.0%
 //   1: 30.0%
@@ -229,10 +266,10 @@ WARNING: linker: libdvm.so has text relocations. This is wasting memory and is a
 //   7: 1.4827586%
 //   8: 15.0%
 //   9: 0.7413793%
-//   10: 9.637931%
+//   10: 9.637931%**
 :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.basecamp.bc3/.activities.MyStuffActivity;end
     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.basecamp.bc3/.activities.MyStuffActivity } in package com.basecamp.bc3
-Sleeping for 500 milliseconds
+**Sleeping for 500 milliseconds**
     // Allowing start of Intent { cmp=com.basecamp.bc3/.activities.AuthChooserActivity } in package com.basecamp.bc3
     // activityResuming(com.basecamp.bc3)
 :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
@@ -300,11 +337,11 @@ Sleeping for 500 milliseconds
 Sleeping for 500 milliseconds
 :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
 :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
-Events injected: 50
+**Events injected: 50**
 :Sending rotation degree=0, persist=false
 :Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0  
 \## Network stats: elapsed time=7872ms (0ms mobile, 0ms wifi, 7872ms not connected)  
-// Monkey finished
+// **Monkey finished**
 
 
 <h3 id="monkeycommand3">Monkey命令三</h3>
@@ -325,3 +362,4 @@ Events injected: 50
 <h2 id="作业4">作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行</h2>
 
 *To be finished(Planning to buy a Mac Device).*
+
