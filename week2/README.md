@@ -1,4 +1,4 @@
-#mobliletest8.homework.week2
+# mobliletest8.homework.week2
 *   [作业1：Android各个工具的使用](#作业1)
     *   [ddms.bat](#ddms)
     *   [hierarchyviewer.bat](#hierarchyviewer)
@@ -20,7 +20,8 @@
 
 
 <h2 id="作业1">作业1：Android各个工具的使用</h2>
-###<h3 id="ddms">ddms.bat</h3>
+<h3 id="ddms">ddms.bat</h3>
+
 1. Launch ***ddms.bat*** and select ***com.basecap.bc3***:  
 ![alt text][img01]
 2. Add a new logcat filter:  
@@ -34,7 +35,8 @@
   [img03]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/03.png
  
 
-###<h3 id="hierarchyviewer">hierarchyviewer.bat</h3>  
+<h3 id="hierarchyviewer">hierarchyviewer.bat</h3>  
+
 1. Launch ***hierarchyviewer.bat***:  
 ![alt text][img04]
 2. ***View Hierarchy***:  
@@ -47,14 +49,14 @@
   [img05]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/05.png  
   [img06]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/06.png
 
-###<h3 id="emulator">emulator.bat</h3>  
+### <h3 id="emulator">emulator.bat</h3>  
 ![alt text][img07]  
 
 
   [img07]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/07.png  
  
 
-###<h3 id="uiautomatorviewer">uiautomatorviewer.bat</h3>
+### <h3 id="uiautomatorviewer">uiautomatorviewer.bat</h3>
 ![alt text][img08]
 
 
@@ -62,13 +64,15 @@
 
   
 <h2 id="作业2">作业2：adb各个命令</h2>
-###<h3 id="installuninstall">adb install, uninstall</h3>
+<h3 id="installuninstall">adb install, uninstall</h3>
+
 ![alt text][img09]
 
 
   [img09]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/09.png
 
-###<h3 id="logcat">adb logcat</h3>
+<h3 id="logcat">adb logcat</h3>
+
 ![alt text][img10]  
 ![alt text][img11]
 
@@ -77,14 +81,16 @@
   [img11]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/11.png
 
 
-###<h3 id="pushpulletc">adb push, pull, ls, rm, mkdir</h3>
+<h3 id="pushpulletc">adb push, pull, ls, rm, mkdir</h3>
+
 ![alt text][img12]
 
 
   [img12]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/12.png
 
 
-###<h3 id="meminfo">adb shell dumpsys meminfo <package name></h3>
+<h3 id="meminfo">adb shell dumpsys meminfo <package name></h3>
+
 ![alt text][img13]
 
 
@@ -92,8 +98,9 @@
 
 
 
-###<h3 id="amstart">adb shell am start packagename/activityname</h3>
-###<h3 id="input">adb shell input keyevent</h3>
+<h3 id="amstart">adb shell am start packagename/activityname</h3>
+<h3 id="input">adb shell input keyevent</h3>
+
 ![alt text][img14]  
 ![alt text][img15]
 
@@ -101,7 +108,8 @@
   [img14]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/14.png
   [img15]: https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/images/15.png
 
-###<h3 id="monkey">adb shell monkey</h3>
+<h3 id="monkey">adb shell monkey</h3>
+
 ![alt text][img16]
 
 
@@ -315,4 +323,5 @@ Events injected: 50
 [mokeycommandtest.log](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week2/src/common/logs/mokeycommandtest.log "mokeycommandtest.log")
 
 <h2 id="作业4">作业4：安装ideviceinstaller，下载一个open souce的xcode project在simulator上运行</h2>
-*To be finished(Planning to buy a Mac Device)*
+
+*To be finished(Planning to buy a Mac Device).*
