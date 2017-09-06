@@ -1,4 +1,4 @@
-# mobliletest8.homework.week10
+# mobiletest8.homework.week10
 *   [作业1：Android gfxinfo的使用（任挑一个应用Demo）](#hw1)
 *   [作业2：TraceView的使用（点、跟踪方法）](#hw2)
 *   [作业3：Systrace的使用（官方文档阅读、Python systrace.py）](#hw3)
