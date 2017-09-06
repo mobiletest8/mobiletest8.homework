@@ -1,4 +1,4 @@
-#mobliletest8.homework.week4
+# mobliletest8.homework.week4
 *   [作业1：新建一个app工程：有按钮，多个activity，点击按钮有activity的跳转](#作业1)
     *   [1. 新建一个app，有按钮，多个activity，点击按钮有activity的跳转](#newappproect)
         *   [1) Create one app project in Eclipse](#appproject)
@@ -21,8 +21,8 @@
 		
 <h2 id="作业1">作业1：新建一个app工程：有按钮，多个activity，点击按钮有activity的跳转。</h2>		
 
-###<h3 id="newappproect">1. 新建一个app，有按钮，多个activity，点击按钮有activity的跳转。</h3>
-####<h4 id="appproject">1) Create one app project in Eclipse:</h4>
+<h3 id="newappproect">1. 新建一个app，有按钮，多个activity，点击按钮有activity的跳转。</h3>
+<h4 id="appproject">1) Create one app project in Eclipse:</h4>
 
 In Eclipse, follow the option **File > New Project** and finally select **Android Application Project** wizard to finish the creation:
 
@@ -32,12 +32,12 @@ In Eclipse, follow the option **File > New Project** and finally select **Androi
 Next, follow the instructions provided and keep all other entries as default thill the final step.
 
 
-####<h4 id="prepare">2) Prepare the below files:</h4>
+<h4 id="prepare">2) Prepare the below files:</h4>
 
 ![alt text][img1-02]
 
 
-#####<h5 id="activity">Two Activity Files</h5>
+<h5 id="activity">Two Activity Files</h5>
 
 1) [MainActivity.java](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/HelloAndroid/src/com/example/helloandroid/MainActivity.java "MainActivity.java"), where on click listener needs to be set:
 ```java
@@ -72,7 +72,8 @@ Next, follow the instructions provided and keep all other entries as default thi
 		});
 	}
 ```
-#####<h5 id="layout">The Layout File</h5>
+
+<h5 id="layout">The Layout File</h5>
 
 Add the necessary **TextView/Button** to construct the layout of the app.
 Make sure each activity class has a layout file, in my case, they are [activity_main.xml](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/HelloAndroid/res/layout/activity_main.xml "activity_main.xml"):
@@ -130,7 +131,8 @@ and [secondpage_main.xml](https://github.com/mobiletest8/mobiletest8.homework.wa
         android:textSize="16sp"
         android:text="@string/secondpage_text" />
 ```
-#####<h5 id="strings">The Strings File</h5>
+
+<h5 id="strings">The Strings File</h5>
 
 In [strings.xml](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/HelloAndroid/res/values/strings.xml "strings.xml"), add the necessary text for TextView/Button for each layout file:
 ```xml
@@ -145,7 +147,8 @@ In [strings.xml](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blo
     <string name ="secondpage_btn">Back</string>
 ```
 
-#####<h5 id="manifest">The Manifest File</h5>
+
+<h5 id="manifest">The Manifest File</h5>
 
 Make sure the two created activities are included in the [AndroidManifest.xml](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/HelloAndroid/AndroidManifest.xml "AndroidManifest.xml") file:
 ```xml
@@ -161,7 +164,7 @@ Make sure the two created activities are included in the [AndroidManifest.xml](h
         <activity android:name=".SecondPageActivity"></activity>
 ```
 
-###<h3 id="runapp">2. 运行app</h3>
+<h3 id="runapp">2. 运行app</h3>
 
 Before the run of the application, make sure the related one real device or virtual device is in place.  
 To run the application from Eclipse, select the project, right click, follow **Run As > Android Application**, the app will be installed on your device and started automatically:
@@ -183,8 +186,8 @@ Click “**Next**”button:
   
   
 <h2 id="作业2">作业2：新建一个测试工程：编写测试用例，实现点击按键、activity跳转自动化</h2>
-###<h3 id="newtestproject">1. 新建一个test工程，编写测试用例，实现点击按键、activity跳转自动化</h3>
-####<h4 id="testproject">1) In Eclipse, follow the option File > New Project and finally select Android Test Project wizard to finish the creation.</h4>
+<h3 id="newtestproject">1. 新建一个test工程，编写测试用例，实现点击按键、activity跳转自动化</h3>
+<h4 id="testproject">1) In Eclipse, follow the option File > New Project and finally select Android Test Project wizard to finish the creation.</h4>
 
 ![alt text][img2-01]
  
@@ -192,7 +195,7 @@ Select **HelloAndroid** as the test target:
 
 ![alt text][img2-02]
  
-####<h4 id="testclass">2) Create a test class:</h4>
+<h4 id="testclass">2) Create a test class:</h4>
 
 ![alt text][img2-03]
  
@@ -218,7 +221,8 @@ public void testMainActivity() {
         SystemClock.sleep(5000);        
     }
 ```
-####<h4 id="androidmanifest">3) AndroidManifest.xml</h4>
+
+<h4 id="androidmanifest">3) AndroidManifest.xml</h4>
 
 Make sure the below details are included in [AndroidManifest.xml](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week4/HelloAndroidTest/AndroidManifest.xml "AndroidManifest.xml"):
 ```xml
@@ -233,8 +237,9 @@ Make sure the below details are included in [AndroidManifest.xml](https://github
         <uses-library android:name="android.test.runner" />
     </application>
 ```
-###<h3 id="runtest">2. 运行测试用例</h3>
-####<h4 id="eclipse">1) Eclipse</h4>
+
+<h3 id="runtest">2. 运行测试用例</h3>
+<h4 id="eclipse">1) Eclipse</h4>
 
 In Eclipse, right click on the test project, follow **Run As > Android Junit Test**, instrumentation test will be run in your device.
 Before clicking “**Next**” button:
@@ -257,13 +262,15 @@ LogCat View:
 
 ![alt text][img2-08]
  
-####<h4 id="devtools">2) DevTools</h4>
+
+<h4 id="devtools">2) DevTools</h4>
 
 In device, open DevTools, follow **Instrumentation > HelloAndroid Test**:
 
 ![alt text][img2-09]
  
-####<h4 id="cli">3) Command Line Interface</h4>
+
+<h4 id="cli">3) Command Line Interface</h4>
 
 Open cmd, run the below command:
 
