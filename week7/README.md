@@ -1,4 +1,4 @@
-#mobliletest8.homework.week7
+# mobiletest8.homework.week7
 *   [作业1：用Python Requests模块模拟GET和POST请求](#hw1)
     *   [1. Create a class extends unittest.TestCase, add two methods(test_get and test_post):](#hw1-1)
     *   [2. Run the test:](#hw1-2)
@@ -10,14 +10,16 @@
     *   [2. Run the test: Right click on the RestAssuredTest.java, select Run As > TestNG Test:](#hw3-2)
 
 
-<h2 id="hw1">作业1：用Python Requests模块模拟GET和POST请求</h2>        
+<h2 id="hw1">作业1：用Python Requests模块模拟GET和POST请求</h2>
+
 *__Pecondition__: Python Eclipse env is ready.*  
 In my case, the APIs are:  
 http://httpbin.org/get  
 http://httpbin.org/post  
 
 
-###<h3 id="hw1-1">1. Create a class extends unittest.TestCase, add two methods(test_get and test_post):</h3>
+
+<h3 id="hw1-1">1. Create a class extends unittest.TestCase, add two methods(test_get and test_post):</h3>
 
 ```python  
 #!/usr/bin/env python
@@ -62,7 +64,9 @@ if __name__ == '__main__':
 ```
 See [PythonRequestsTest.py] as well.
 
-###<h3 id="hw1-2">2. Run the test</h3>
+
+
+<h3 id="hw1-2">2. Run the test</h3>
 
 Right click on the [PythonRequestsTest.py], select Run As > Python unit-test:  
     
@@ -87,9 +91,9 @@ Right click on the [PythonRequestsTest.py], select Run As > Python unit-test:
     
     OK
 
-<h2 id="hw2">作业2：用Rest Assured模拟GET和POST请求</h2>		
+<h2 id="hw2">作业2：用Rest Assured模拟GET和POST请求</h2>
+<h3 id="hw2-1">1. Create a maven project, add necessary dependencies in pom.xml:</h3>
 
-###<h3 id="hw2-1">1. Create a maven project, add necessary dependencies in pom.xml:</h3>
 ```xml
 <dependencies>
     <dependency>
@@ -123,7 +127,9 @@ Right click on the [PythonRequestsTest.py], select Run As > Python unit-test:
 ```
 See [pom.xml] as well.
 
-###<h3 id="hw2-2">2. Create a test class and 3 methods:</h3>
+
+<h3 id="hw2-2">2. Create a test class and 3 methods:</h3>
+
 ```java
 public class RestAssuredTest {
 	@BeforeClass
@@ -163,10 +169,13 @@ public class RestAssuredTest {
 See [RestAssuredTest.java] and [httpbin.json] as well.
 
 
-<h2 id="hw3">作业3：在项目中实践Maven, TestNG, Data Provider</h2>		
+<h2 id="hw3">作业3：在项目中实践Maven, TestNG, Data Provider</h2>
+
 *__Note__: Please refer to the project of homework2.*
 
-###<h3 id="hw3-1">1. Create a class with data provider method:</h3>
+
+<h3 id="hw3-1">1. Create a class with data provider method:</h3>
+
 ```java
 public class DataProviderMethod {
 	@DataProvider(name="dataprovider1")
@@ -181,7 +190,9 @@ public class DataProviderMethod {
 ```
 See [DataProviderMethod.java] as well.
 
-###<h3 id="hw3-2">2. Run the test: Right click on the RestAssuredTest.java, select Run As > TestNG Test:</h3>
+
+<h3 id="hw3-2">2. Run the test: Right click on the RestAssuredTest.java, select Run As > TestNG Test:</h3>
+
 
     [TestNG] Running:
     C:\Users\Michael\AppData\Local\Temp\testng-eclipse-1052233306\testng-customsuite.xml
