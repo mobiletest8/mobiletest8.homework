@@ -1,10 +1,12 @@
-#mobliletest8.homework.week5
+# mobiletest8.homework.week5
 *   [作业1：用Robotium去做上周的作业](#作业1)
 *   [作业2：新建一个测试工程：编写测试用例，实现点击按键、activity跳转自动化](#作业2)
 
 
 <h2 id="作业1">作业1：用Robotium去做上周的作业</h2>
+
 Use **solo API** to rewrite the Instrumentation test cases last week:
+
 ```java
     public void testNextButton() {
         Log.i(TAG, "Call testNextButton()");
@@ -45,6 +47,7 @@ To run this test case, right click on it or the test project, select **Run As > 
 
 
 <h2 id="作业2">作业2：扩展Robotium Solo下面的API，用新API做测试</h2>
+
 I choose to extend **assertCurrentActivity** with four parameters.  
 In my test case, [TestActivityWithRobotium.java](https://github.com/mobiletest8/mobiletest8.homework.wanmich/blob/master/week5/HelloAndroidTest/src/com/example/helloandroid/test/TestMainActivityWithRobotium.java "TestActivityWithRobotium.java"), I added the below method:
 
