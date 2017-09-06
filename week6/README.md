@@ -1,4 +1,4 @@
-# mobliletest8.homework.week6
+# mobiletest8.homework.week6
 *   [作业1：在本机搭建Appium Grid环境](#hw1)
     *   [1. Prepare the bat file to start up appium grid](#hw1-1)
     *   [2. Prepare the json file for the startup of appium server](#hw1-2)
