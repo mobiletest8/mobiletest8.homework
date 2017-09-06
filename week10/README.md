@@ -1,4 +1,4 @@
-#mobliletest8.homework.week10
+# mobliletest8.homework.week10
 *   [作业1：Android gfxinfo的使用（任挑一个应用Demo）](#hw1)
 *   [作业2：TraceView的使用（点、跟踪方法）](#hw2)
 *   [作业3：Systrace的使用（官方文档阅读、Python systrace.py）](#hw3)
@@ -6,6 +6,7 @@
 
 
 <h2 id="hw1">作业1：Android gfxinfo的使用（任挑一个应用Demo）</h2>
+
 1. In the Developer options, turn on the tool by checking in **adb shell dumpsys gfxinfo** of the **Profile GPU rendering** option:  
 ![alt text][img1-1]  
 2. After launching the application and scrolling the main timeline, run the following command from a terminal:  
@@ -22,6 +23,7 @@ _**Reminder:** to render smoothly at 60 fps, each frame must take less than 16 m
 
 
 <h2 id="hw2">作业2：TraceView的使用（点、跟踪方法）</h2>
+
 1. Open **DDMS** and click **Start Method Profiling**:  
 ![alt text][img2-1]  
 2. Do some operations that take time to respond, like scrool List View, switch Tab, etc.  
@@ -31,6 +33,7 @@ _**Reminder:** to render smoothly at 60 fps, each frame must take less than 16 m
 5. Click the method and child method that take the most time, level by level to check the details and the probable cause.
 
 <h2 id="hw3">作业3：Systrace的使用（官方文档阅读、Python systrace.py）</h2>
+
 To use **systrace**, open a terminal and from the directory ***platform-tools\systrace*** in the Android SDK, run the following command:  
 ![alt text][img3-1]  
 In my case, the following type of events are profiled:  
@@ -47,6 +50,7 @@ Zoom in using the 'W' key to find out more details about the frames:
 ![alt text][img3-3]   
 
 <h2 id="hw4">作业4：Instruments中的time profiler和core animation的使用</h2>
+
 _N/A_
 
 
